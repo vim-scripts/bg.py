@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2122
+
+Tested on windows only.
+Requirements:  
+ 1. python "http://python.org&quot; installed.
+ 2. Google Data APIs -  "http://code.google.com/p/gdata-python-client/" &nbsp; gdata-python-client
+  can be downloaded from here : "http://gdata-python-client.googlecode.com/files/gdata.py-1.0.10.latest.zip&quot;
+
