@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #
 __author__ = 'author'
+import getpass
 
 try:
   from xml.etree import ElementTree # for Python 2.5 users
@@ -12,6 +13,7 @@ import gdata
 import atom
 import getopt
 import sys
+import BloggerExample
 
 
 def main():
@@ -36,8 +38,7 @@ def main():
       password = a
 
   if password =="inline":
-        print 'enter password:'
-	password = sys.stdin.readline()  
+	password = getpass.getpass()   
 
   if file == '' or password == '' or user=='':
     print ('python blog.py --f [file] --u [username]  --p [password] | inline ')
